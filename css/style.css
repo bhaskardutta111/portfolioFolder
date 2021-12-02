@@ -13,6 +13,14 @@
 	font-weight: bold;
 }
 
+#msg{
+    background: #fff;
+    line-height: 15px;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    
+}
 /* ------------------------ MAIN CONTENT HERE --------------*/
 
 main {
@@ -104,21 +112,22 @@ button:hover{
 }
 
 .social-icons{
-/*    border: 1px solid red;*/
+    /*border: 1px solid red;*/
     float: right;
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 20px 10px;
     
 }
 
 .social-icons a{
+    margin: 15px;
     text-decoration: none;
     color: aliceblue;
 }
 
 .social-icons a:hover{
-    color: aqua;
+    color: #000;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
