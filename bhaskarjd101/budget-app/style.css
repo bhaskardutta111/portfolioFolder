@@ -1,0 +1,363 @@
+/*GENERAL STYLE*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	color: #fff;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	position: relative;
+	height: 1000px;
+/*	overflow: hidden;*/
+}
+
+/*BUDGET DISPLAY PANEL*/
+
+.budgetDisplay{
+	background: url(backG.jpg);
+	background-size: cover;
+	background-position: cover;
+/*	border: 1px solid red;*/
+	height: 300px;
+}
+
+
+.displayPanel{
+	/*border: 1px solid red;
+	background-color: grey;
+	/*text-align: center;*/
+	width: 450px;
+	height: 250px;
+	position: relative;
+/*	left: 180px;
+	top: 30px;*/
+	transform: translate(120%, 10%);
+	
+}
+
+.availableBudgetText{
+	/*border: 1px solid red;*/
+	/*background-color: blue;*/
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Raleway';
+	margin: 10px;
+}
+
+.budget-total{
+	/*border: 1px solid red;
+	background-color: blue;*/
+	text-align: center;
+	font-size: 50px;
+	line-height: 50px;
+	letter-spacing: 1px;
+	margin: 20px;
+}
+
+.income-display-panel{
+	border: 2px solid #268F1D;
+	border-radius: 5px;
+	background-color: #53BC49;
+	height: 50px;
+	margin-bottom: 30px;
+}
+
+.expenses-display-panel{
+	border: 2px solid #AD0404;
+	border-radius: 5px;
+	background-color: #C03232;
+	height: 50px;
+	margin-top: 10px;
+
+}
+
+.income-text, .expense-text{
+	/*border: 2px solid green;*/
+	/*margin: 10px;*/
+	width: 110px;
+	/*margin-bottom: 10px;*/
+	font-size: 25px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	
+}
+.income-value-display{
+	float: right;
+	/*border: 1px solid red;*/
+	font-size: 25px;
+	position: relative;
+	bottom: 20px;
+	right: 40px;
+}
+
+.expenses-value-display{
+	float: right;
+	/*border: 1px solid red;*/
+	font-size: 25px;
+	position: relative;
+	bottom: 20px;
+	right: 40px;	
+}
+
+
+/*BUDGET DESCRIPTIONS*/
+
+.budget-descrip{
+	background-color: #AEA9A7;
+/*	border: 1px solid red;*/
+	border-bottom: 5px solid #727170;
+	text-align: center;
+	height: 70px;
+
+}
+
+.add-descrip-panel{
+	/*border: 1px solid red;
+	background-color: grey;*/
+	height: 60px;
+	margin-bottom: 20px;
+	width: 700px;
+	position: relative;
+	transform: translate(60%, 10%);
+	font-family: Comic Sans MS;
+	font-size: 25px;
+}
+
+.add-sub{
+	border: 2px solid blue;
+	border-radius: 5px;
+	height: 35px;
+	margin-top: 10px;
+	position: relative;
+	right: 5px;
+	font-size: 25px;
+	color: inherit;
+    margin-left: 5px;
+
+}
+
+.add-sub-descrip{
+	border: 2px solid blue;
+	border-radius: 5px;
+	position: relative;
+	left: 5px;
+	font-size: 20px;
+	height: 35px;
+	width: 300px;
+	margin-right: 10px;
+
+}
+
+.add-sub-value{
+	border: 2px solid blue;
+	border-radius: 5px;
+	margin-top: 5px;
+	position: relative;
+	bottom: 50px;
+	left: 130px;
+	font-size: 20px;
+	margin-right: 10px;
+	width: 100px;
+	height: 35px;
+
+
+}
+
+.add-sub-button{
+	/*border: 1px solid red;*/
+	font-size: 20px;
+	margin-top: 13px;
+	position: relative;
+	bottom: 45px;
+	left: 140px;
+	height: 35px;
+
+
+
+}
+
+.add-sub-button:hover{
+	cursor: pointer;
+}
+
+.add-sub-button i{
+	font-size: 27px;
+	/*color: green;*/
+}
+
+
+
+/*INCOME/EXPENSES LIST*/
+
+/*
+.incomes-descrip_value{
+	border: 1px solid red;
+
+}
+*/
+
+.incomes-expenses-panel{
+	/*border: 1px solid red;	*/
+	width: 1000px;
+	height: 500px;
+	margin-top: 10px;
+	transform: translate(25%, 10%);
+
+}
+
+.incomes-list{
+/*	border: 1px solid red;*/
+	background-color: #C4F9B9;
+	width: 450px;
+	margin-right: 40px;
+	height: 450px;
+	float: left;
+	position: relative;
+	transform: translate(5%, 5%);	
+	color: #000;
+}
+
+.expenses-list{
+/*	border: 1px solid red;*/
+	background-color: #F9BEB6;
+	width: 450px;
+	height: 450px;
+	float: right;
+	transform: translate(-17%, 5%);	
+	color: #000;
+}
+
+h4{
+	margin: 10px;
+    margin-bottom: 15px;
+
+}
+
+.incomes-text { color: #28B9B5; }
+.expenses-text { color: #FF5049; }
+
+
+.income-descrip_value{
+	height: 30px;
+	padding: 10px;
+	padding-bottom: 40px;
+	position: relative;
+	bottom: 10px;
+	margin-bottom: 5px;
+
+}
+
+.expense-descrip_value{
+	border: 1px solid black;
+	height: 30px;
+	padding: 10px;
+	padding-bottom: 40px;
+	position: relative;
+	bottom: 10px;
+	margin-bottom: 5px;
+
+}
+
+.income-descrip_value:first-child { border-top: 2px solid #e7e7e7; }
+.income-descrip_value:nth-child(odd) { background-color: #36F925; }
+.income-descrip_value:nth-child(even) { background-color: #26981C; }
+
+.expense-descrip_value:first-child { border-top: 2px solid #e7e7e7; }
+.expense-descrip_value:nth-child(odd) { background-color: #F98484; }
+.expense-descrip_value:nth-child(even) { background-color: #B46161; }
+
+
+
+.income_descrip {
+    float: left;
+/*    border-bottom: 1px solid grey;*/
+}
+
+.income_value, .expense_value {
+    float: right;
+    transition: transform 0.3s;
+}
+
+.expense_value{
+	position: relative;
+	bottom: 25px;
+	right: 25px;
+
+}
+
+.expense_percentage {
+	border: 1px solid black;
+    float: right;
+    transition: transform 0.3s;
+    font-size: 11px;
+    background-color: #FFDAD9;
+    padding: 3px;
+    border-radius: 3px;
+    /*width: 32px;*/
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+}
+
+.income_value_button .income-value, 
+.income_value_button .value_delete_button{
+	color: #28B9B5;
+}
+
+
+.value-delete {
+    float: right;
+}
+
+.value_delete_button{
+    font-size: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    display: none;
+    position: relative;
+    left: 40px;
+}
+
+
+.value_delete_button:focus { outline: none; }
+.value_delete_button:active { transform: translateY(2px); }
+
+.income-descrip_value:hover .value_delete_button{
+    display: block; 
+}
+
+.expense-descrip_value:hover .value_delete_button{
+    display: block; 
+    position: relative;
+    bottom: 15px;
+    left: 70px;
+
+}
+
+.income-descrip_value:hover .income_value{ 
+	transform: translateX(-35px); 
+}
+.expense-descrip_value:hover .expense_value{
+	transform: translateX(-45px);
+}
+
+.expense-descrip_value:hover .expense_percentage { 
+	transform: translateX(-20px);
+}
+
+
+
+.red { color: red !important; }
+.red-focus { border: 2px solid red !important; }
+
+.green{ color: green !important; }
+.green-focus { border: 3px solid green !important; }
