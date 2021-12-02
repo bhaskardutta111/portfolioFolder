@@ -1,0 +1,168 @@
+#main{
+    font-family: Comic Sans MS, sans-serif;
+}
+
+                
+/* ------------------ HEADER HERE -------------------*/
+#header {
+	background: #6F6FD5;
+	line-height: 100px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* ------------------------ MAIN CONTENT HERE --------------*/
+
+main {
+	padding: 50px 0;
+}
+main::after {
+	clear: both;
+	display: block;
+	content: "";
+}
+.block_feature {
+	float: left;
+	width: 30%;
+	background: #2C2828;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	height: 600px;
+	padding: 40px 0 0 0;
+}
+.block_content {
+	float: right;
+	width: 70%;
+	background: #100E0E;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	height: 600px;
+	padding: 40px 0 0 0;
+}
+
+/*BLOCK FEATURE*/
+
+.dice-game-00-rules, .dice-game-01-rules, .dice-game-02-rules, .dice-game-03-rules, .budget-app-descrip{
+    display: none;
+    
+}
+
+.dice-game-00, .dice-game-01, .dice-game-02, .dice-game-03, .budget-app{
+    cursor: pointer;
+/*    border: 1px solid red;*/
+    width: 50%;
+    margin-left: 20%;
+}
+
+.appLive{
+    color: #2FADE9;
+    padding: 10px;
+}
+
+
+h3:hover{color: #2FADE9;}
+
+.dice-game-00-rules, .dice-game-01-rules, .dice-game-02-rules, .dice-game-03-rules, .budget-app-descrip{
+    /*border: 1px solid red;*/
+    text-align: left;
+    margin-left: 10px;
+    position: relative;
+}
+
+.dice-game-00-btn, .dice-game-01-btn, .dice-game-02-btn, .dice-game-03-btn, .budget-app-btn{
+    border: 3px solid #01012E;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 25px;
+    line-height: 50px;
+    cursor: pointer;
+    background-color: #8595FE
+ }
+
+
+button:hover{
+    border: 3px solid #68686D;
+    background-color: #3C3C88;
+    padding: 5px;
+    color: aliceblue;
+ 
+}
+/* ------------------ FOOTER HERE --------------------------*/
+
+.footer {
+	background: #091459;
+	color: #ffffff;
+	text-align: center;
+	font-size: 15px;
+    line-height: 50px;
+}
+
+.social-icons{
+/*    border: 1px solid red;*/
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.social-icons a:hover{
+    color: aqua;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .block_feature {
+        float: none;
+        margin: 0 0 20px 0;
+        width: auto;
+        font-size: 25px;
+        height: 350px;
+    }
+    h1{
+        font-size: 30px;   
+        margin-right: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .block_content {
+        float: none;
+        width: auto;
+        font-size: 10px;
+        height: 750px;
+        font-size: 20px;
+    }
+    .dice-game-00-btn, .dice-game-01-btn, .dice-game-02-btn, .dice-game-03-btn, .budget-app-btn{
+        border: 3px solid #01012E;
+        border-radius: 5px;
+        margin: 10px;
+        font-size: 20px;
+        line-height: 40px;
+        cursor: pointer;
+        background-color: #8595FE
+    }
+
+    /*.dice-game-00-btn:active{
+        border: 3px solid #68686D;
+        background-color: #3C3C88;
+        padding: 5px;
+        color: aliceblue;
+    }*/
+    .social-icons a:active{
+        color: aqua;
+    }
+    .footer {
+        font-size: 20px;
+    }
+}
