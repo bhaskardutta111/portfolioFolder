@@ -23,6 +23,11 @@ function budgetAppActive(){
     navItem04();    
 }
 
+function project1Active(){
+    project1DetailsPanel();
+    navItem05();
+}
+
 /*FUNCTIONS FOR DICE GAME 00*/
 function app00DetailsPanel(){
         document.querySelector('.dice-game-00-rules').style.display = 'block';    
@@ -30,6 +35,7 @@ function app00DetailsPanel(){
         document.querySelector('.dice-game-02-rules').style.display = 'none';
         document.querySelector('.dice-game-03-rules').style.display = 'none';
         document.querySelector('.budget-app-descrip').style.display = 'none';
+        document.querySelector('.project1-descrip').style.display = 'none';
         console.log('app00start');
 }
 function navItem00(){
@@ -38,6 +44,8 @@ function navItem00(){
         document.querySelector('.dice-game-02').classList.remove('appLive');
         document.querySelector('.dice-game-03').classList.remove('appLive');
         document.querySelector('.budget-app').classList.remove('appLive');
+        document.querySelector('.project1').classList.remove('appLive');
+
 }
 
 /*FUNCTIONS FOR DICE GAME 01*/
@@ -47,6 +55,7 @@ function navItem00(){
         document.querySelector('.dice-game-02-rules').style.display = 'none';
         document.querySelector('.dice-game-03-rules').style.display = 'none';
         document.querySelector('.budget-app-descrip').style.display = 'none';
+        document.querySelector('.project1-descrip').style.display = 'none';
 }
     function navItem01() {
         document.querySelector('.dice-game-01').classList.toggle('appLive');
@@ -54,6 +63,7 @@ function navItem00(){
         document.querySelector('.dice-game-02').classList.remove('appLive');
         document.querySelector('.dice-game-03').classList.remove('appLive');
         document.querySelector('.budget-app').classList.remove('appLive');        
+        document.querySelector('.project1').classList.remove('appLive');
 }
 
 /*FUNCTIONS FOR DICE GAME 02*/
@@ -63,6 +73,7 @@ function navItem00(){
         document.querySelector('.dice-game-01-rules').style.display = 'none';
         document.querySelector('.dice-game-03-rules').style.display = 'none';
         document.querySelector('.budget-app-descrip').style.display = 'none';        
+        document.querySelector('.project1-descrip').style.display = 'none';
 }
 
     function navItem02() {
@@ -71,6 +82,7 @@ function navItem00(){
         document.querySelector('.dice-game-01').classList.remove('appLive');
         document.querySelector('.dice-game-03').classList.remove('appLive');
         document.querySelector('.budget-app').classList.remove('appLive');        
+        document.querySelector('.project1').classList.remove('appLive');
 }
 
 
@@ -81,6 +93,7 @@ function navItem00(){
         document.querySelector('.dice-game-01-rules').style.display = 'none';
         document.querySelector('.dice-game-02-rules').style.display = 'none';
         document.querySelector('.budget-app-descrip').style.display = 'none';        
+        document.querySelector('.project1-descrip').style.display = 'none';        
 }
     function navItem03(){
         document.querySelector('.dice-game-03').classList.toggle('appLive');
@@ -88,6 +101,7 @@ function navItem00(){
         document.querySelector('.dice-game-01').classList.remove('appLive');
         document.querySelector('.dice-game-02').classList.remove('appLive');
         document.querySelector('.budget-app').classList.remove('appLive');        
+        document.querySelector('.project1').classList.remove('appLive');
 }
 
 
@@ -98,6 +112,7 @@ function navItem00(){
         document.querySelector('.dice-game-01-rules').style.display = 'none';
         document.querySelector('.dice-game-02-rules').style.display = 'none';
         document.querySelector('.dice-game-03-rules').style.display = 'none';         
+        document.querySelector('.project1-descrip').style.display = 'none';
 }
     function navItem04(){
         document.querySelector('.budget-app').classList.toggle('appLive');
@@ -105,6 +120,25 @@ function navItem00(){
         document.querySelector('.dice-game-01').classList.remove('appLive');
         document.querySelector('.dice-game-02').classList.remove('appLive');
         document.querySelector('.dice-game-03').classList.remove('appLive');   
+        document.querySelector('.project1').classList.remove('appLive');
+}
+
+/*FUNCTIONS FOR PROJECT1*/
+function project1DetailsPanel(){
+        document.querySelector('.project1-descrip').style.display = 'block';
+        document.querySelector('.budget-app-descrip').style.display = 'none';
+        document.querySelector('.dice-game-00-rules').style.display = 'none';
+        document.querySelector('.dice-game-01-rules').style.display = 'none';
+        document.querySelector('.dice-game-02-rules').style.display = 'none';
+        document.querySelector('.dice-game-03-rules').style.display = 'none';                 
+}
+function navItem05(){
+        document.querySelector('.project1').classList.toggle('appLive');       
+        document.querySelector('.dice-game-00').classList.remove('appLive');
+        document.querySelector('.dice-game-01').classList.remove('appLive');
+        document.querySelector('.dice-game-02').classList.remove('appLive');
+        document.querySelector('.dice-game-03').classList.remove('appLive');   
+        document.querySelector('.budget-app').classList.remove('appLive');
 }
 
 
@@ -117,6 +151,9 @@ document.querySelector('.dice-game-02').addEventListener('click', diceGame02Acti
 document.querySelector('.dice-game-03').addEventListener('click', diceGame03Active);
 
 document.querySelector('.budget-app').addEventListener('click', budgetAppActive);
+
+document.querySelector('.project1').addEventListener('click', project1Active);
+
 
 
 /*

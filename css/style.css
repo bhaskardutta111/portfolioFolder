@@ -56,12 +56,12 @@ main::after {
 
 /*BLOCK FEATURE*/
 
-.dice-game-00-rules, .dice-game-01-rules, .dice-game-02-rules, .dice-game-03-rules, .budget-app-descrip{
+.dice-game-00-rules, .dice-game-01-rules, .dice-game-02-rules, .dice-game-03-rules, .budget-app-descrip, .project1-descrip{
     display: none;
     
 }
 
-.dice-game-00, .dice-game-01, .dice-game-02, .dice-game-03, .budget-app{
+.dice-game-00, .dice-game-01, .dice-game-02, .dice-game-03, .budget-app, .project1{
     cursor: pointer;
 /*    border: 1px solid red;*/
     width: 50%;
@@ -74,16 +74,16 @@ main::after {
 }
 
 
-h3:hover{color: #2FADE9;}
+h3:hover{color: #6F6FD5;}
 
-.dice-game-00-rules, .dice-game-01-rules, .dice-game-02-rules, .dice-game-03-rules, .budget-app-descrip{
+.dice-game-00-rules, .dice-game-01-rules, .dice-game-02-rules, .dice-game-03-rules, .budget-app-descrip, .project1-descrip{
     /*border: 1px solid red;*/
     text-align: left;
     margin-left: 10px;
     position: relative;
 }
 
-.dice-game-00-btn, .dice-game-01-btn, .dice-game-02-btn, .dice-game-03-btn, .budget-app-btn{
+.dice-game-00-btn, .dice-game-01-btn, .dice-game-02-btn, .dice-game-03-btn, .budget-app-btn, .project1-site-btn{
     border: 3px solid #01012E;
     border-radius: 5px;
     margin: 10px;
@@ -152,7 +152,7 @@ button:hover{
         height: 750px;
         font-size: 20px;
     }
-    .dice-game-00-btn, .dice-game-01-btn, .dice-game-02-btn, .dice-game-03-btn, .budget-app-btn{
+    .dice-game-00-btn, .dice-game-01-btn, .dice-game-02-btn, .dice-game-03-btn, .budget-app-btn, .project1-site-btn{
         border: 3px solid #01012E;
         border-radius: 5px;
         margin: 10px;
