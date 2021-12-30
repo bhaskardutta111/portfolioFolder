@@ -1,10 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
 }
 
-.main{
-	background-color: red;
+
+body {
+   font-weight: 300;
+   font-size: 20px;
 }
-body{
+
+.container{
+	display: flex;
+}
+
+.sidebar{
+	background-color: cyan;	
+	width: 20vw;
+	height: 45vw;
+}
+.sidebar ul{
+	padding: 40px;
+}
+.sidebar li{
+	list-style: none;
+	padding: 30px 0;
+   font-size: 25px;
+
+}
+
+.main{
+	width: 80vw;
+	background-color: blue;
+	height: 45vw;
 }
