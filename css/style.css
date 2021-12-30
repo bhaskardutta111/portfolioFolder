@@ -1,5 +1,5 @@
 #main{
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Garamond, sans-serif;
 }
 
                 
@@ -61,11 +61,29 @@ main::after {
     
 }
 
-.dice-game-00, .dice-game-01, .dice-game-02, .dice-game-03, .budget-app, .project1{
+.dice-game-00, .dice-game-01, .dice-game-02, .dice-game-03, .budget-app, .project1,{
     cursor: pointer;
 /*    border: 1px solid red;*/
     width: 50%;
     margin-left: 20%;
+}
+
+.atwork {
+    cursor: pointer;
+    width: 50%;
+    padding:  10px;
+    margin-left: 20%;
+    background-color: #000;
+    color: #fff;
+    
+    }
+.atwork:hover{
+    color: red;
+    background-color: #fff;
+}
+
+.block_feature a{
+    text-decoration: none;
 }
 
 .appLive{
