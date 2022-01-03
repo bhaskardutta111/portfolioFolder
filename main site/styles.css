@@ -35,3 +35,10 @@ body {
 	background-color: blue;
 	height: 45vw;
 }
+
+.about{
+	width:70vw;
+	height:20vw;
+	margin: 115px auto;
+	background-color: green;
+}
