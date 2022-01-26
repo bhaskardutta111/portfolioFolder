@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=JetBrains+Mono:wght@100&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -17,8 +16,7 @@ body {
 
 .sidebar{
 	background-color: cyan;	
-	width: 20vw;
-	height: 45vw;
+	width: 15vw;
 }
 .sidebar ul{
 	padding: 40px;
@@ -31,28 +29,63 @@ body {
 }
 
 .main{
-	width: 80vw;
-	background-color: blue;
-	height: 45vw;
+	width: 90vw;
+/*	background-color: blue;*/
 }
 
 .about{
-	width:70vw;
-	height:20vw;
-	margin: 115px auto;
-	background-color: green;
+	width:80vw;
+	height:60vh;
+	margin: 110px auto;
+/*	background-color: green;*/
+	display: flex;
+	justify-content: space-around;
+	font-family: 'JetBrains Mono', monospace;
 }
-.infoPic{
-	border: 1px solid red;
-	width:70vw;
-	height:20vw;
-	margin: 10px auto;
+.infoText{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+/*	background-color: grey;*/
+	margin: 0 20px;
 }
-.dp{
-    width: 18vw;
-    height: 18vw;
-    border-radius:  50%;
-    padding: 10px;
- }
+.hello{
+	font-size: 60px;
+}
+.name{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Fira Sans', sans-serif;
+}
+.desc{
+	font-size: 40px;
+	
+}
+.ctas{
+	margin: 17px 0;	
+}
+.ctas button{
+    padding: 11px;
+    border-radius: 10px;
+    background-color: cyan;
+    color: red;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.infoPic img{
+/*	border: 1px solid red;*/
+	height:60vh; 
+}
 
 
