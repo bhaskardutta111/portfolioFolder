@@ -18,6 +18,8 @@ body {
 	background-color: cyan;	
 	width: 434px;
 	height: 100vh;
+		font-family: 'JetBrains Mono', monospace;
+
 }
 .sidebar ul{
 	padding: 40px;
@@ -85,20 +87,58 @@ body {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .infoPic img{
 /*	border: 1px solid red;*/
 	height:60vh; 
 }
+
+
+/*contact*/
+.contactForm{
+	font-family: 'Fira Sans', sans-serif;
+	padding: 0 10px;
+	padding-top: 100px;
+
+}
+
+.contactForm h1{
+	font-family: 'JetBrains Mono', monospace;
+	padding: 15px 1px;
+}
+
+.contactForm form div{
+	padding: 10px 3px;
+	display: flex;
+	flex-direction: column;
+}
+.contactForm form input{
+    width: 30vw;
+    height: 2em;
+    border-radius: 6px;
+	font-size: 20px;
+		margin: 15px 0px;
+}
+
+#emailHelp{
+	font-size:15px;
+	color:midnightblue;
+	font-weight: bold;
+}
+
+#form-check{
+	flex-direction: row;
+
+}
+#isClient{
+width:20px;
+   margin: 0 13px;	
+
+}
+
+
+
+
+
+
 
 
