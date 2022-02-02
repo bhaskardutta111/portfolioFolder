@@ -151,10 +151,26 @@ width:20px;
     color: cyan;
 
 }	
+
+/*skills*/
+.myskills{
+	border: 1px solid red;
+	margin: 110px 20px;
+	font-family: 'JetBrains Mono', monospace;
+
+}
+.myskills h2{
+	margin: 30px auto;
+
+}
+
+.skills{
+	margin: 20px auto;
+	font-family: 'Fira Sans', sans-serif;
+
 }
 
 
 
 
-
-
+	
