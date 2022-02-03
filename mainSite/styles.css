@@ -154,23 +154,27 @@ width:20px;
 
 /*skills*/
 .myskills{
-	border: 1px solid red;
-	margin: 110px 20px;
+	margin: 90px 20px;
 	font-family: 'JetBrains Mono', monospace;
 
 }
-.myskills h2{
-	margin: 30px auto;
+
+.skillContainer{
+	display: flex;
+	flex-direction: row;
+	margin: 70px auto;
 
 }
 
-.skills{
-	margin: 20px auto;
-	font-family: 'Fira Sans', sans-serif;
+.skills img{
+	height:120px;
+	margin: 0 40px;
+
 
 }
-
 
 
 
 	
+
+
