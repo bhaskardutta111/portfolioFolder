@@ -16,7 +16,7 @@ body {
 	  	background-color: pink;	
 
 }
-
+/*
 .sidebar{
 	margin: 10px auto;
 	background-color: cyan;	
@@ -40,16 +40,19 @@ body {
 .sidebar li a{
 	   text-decoration: none;
 
-}
+}*/
 .main{
 background-color: blue;
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
+	overflow-x:auto;
+
 }
 
 .about{
-	width:800vw;
-	height:60vh;
+	width:100vw;
+	height: 100vh;
 	margin: 80px auto;
 	background-color: green;
 	display: flex;
@@ -64,15 +67,15 @@ background-color: blue;
 	margin: 0 20px;
 }
 .hello{
-/*	font-size: 60px;*/
+	font-size: 60px;
 }
 .name{
-/*	font-size: 50px;*/
+	font-size: 50px;
 	font-weight: bold;
 	font-family: 'Fira Sans', sans-serif;
 }
 .desc{
-/*	font-size: 40px;*/
+	font-size: 40px;
 	margin: 15px 0;
 	
 }
@@ -103,21 +106,23 @@ background-color: blue;
 
 /*skills*/
 .myskills{
-	margin: 90px 20px;
+	width:100vw;
+	margin: 10px 10px;
 	font-family: 'JetBrains Mono', monospace;
+    background-color: #000;
 
 }
 
 .skillContainer{
 	display: flex;
 	flex-direction: row;
-	margin: 70px auto;
-
+	margin: 10px auto;
+*/
 }
 
 .skills img{
-	height:120px;
-	margin: 0 40px;
+	height:10px;
+	margin: 0 0px;
 
 
 }
@@ -126,7 +131,7 @@ background-color: blue;
 
 
 
-/*contact*/
+/*contact
 .contactForm{
 	font-family: 'Fira Sans', sans-serif;
 	padding: 0 10px;
@@ -184,7 +189,7 @@ width:20px;
     color: cyan;
 
 }	
-
+*/
 
 
 
