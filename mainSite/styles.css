@@ -14,21 +14,21 @@ body {
 
 .container{
 	  	background-color: pink;	
+	display: flex;
 
 }
-/*
+
 .sidebar{
-	margin: 10px auto;
 	background-color: cyan;	
-	width: 800px;
-	height: 10vh;
+	width: 434px;
+	height: 100vh;
 	font-family: 'JetBrains Mono', monospace;
 	border: 1px solid red;
 	
 }
 .sidebar ul{
-	display: flex;
-	margin: 0 20px;
+	padding: 40px;
+	margin: 15px 0;
 
 }
 .sidebar li{
@@ -40,25 +40,26 @@ body {
 .sidebar li a{
 	   text-decoration: none;
 
-}*/
+}
 .main{
+		width: 90vw;
+
 background-color: blue;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	overflow-x:auto;
 
 }
 
 .about{
-	width:100vw;
-	height: 100vh;
-	margin: 80px auto;
-	background-color: green;
+width:80vw;
+	height:60vh;
+	margin: 110px auto;
 	display: flex;
 	justify-content: space-around;
+	background-color: green;
 	font-family: 'JetBrains Mono', monospace;
+
 }
+
+
 .infoText{
 	display: flex;
 	flex-direction:column;
@@ -101,7 +102,7 @@ background-color: blue;
 
 .infoPic img{
 /*	border: 1px solid red;*/
-	height:10vh; 
+	height:60vh; 
 }
 
 /*skills*/
