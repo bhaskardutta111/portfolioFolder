@@ -44,9 +44,8 @@ body {
 
 }
 .main{
-		width: 90vw;
-
-/*background-color: blue;*/
+	width: 90vw;
+	background-color: brown;
 
 }
 
@@ -137,8 +136,22 @@ width:80vw;
 
 }
 
+/*work*/
+.projectContainer{
+    background-color: red;
+}
+.projectContainer h2{
+	margin: 30px auto;
+}
 
 
+
+}
+
+.projects{
+    background-color: green;
+
+}
 
 
 /*contact
@@ -205,5 +218,3 @@ width:20px;
 
 	
 
-
-2, 8, 135
