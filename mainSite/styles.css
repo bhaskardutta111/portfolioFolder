@@ -8,12 +8,12 @@
 body {
    font-weight: 300;
    font-size: 20px;
-  	background-color: brown;	
+/*  	background-color: brown;	*/
  
 }
 
 .container{
-	  	background-color: pink;	
+/*	  	background-color: pink;	*/
 	display: flex;
 
 }
@@ -23,19 +23,21 @@ body {
 	width: 434px;
 	height: 100vh;
 	font-family: 'JetBrains Mono', monospace;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	
 }
 .sidebar ul{
 	padding: 40px;
-	margin: 15px 0;
-
+	margin: 25px 0;
+/*	border: 1px solid red;*/
+   
 }
 .sidebar li{
 	list-style: none;
-	padding: 10px 0;
-	margin: 10px 20px;
+	padding: 20px 0;
+	margin: 35px 20px;
    font-size: 25px;
+/*	border: 1px solid red;*/
 }
 .sidebar li a{
 	   text-decoration: none;
@@ -44,7 +46,7 @@ body {
 .main{
 		width: 90vw;
 
-background-color: blue;
+/*background-color: blue;*/
 
 }
 
@@ -54,8 +56,8 @@ width:80vw;
 	margin: 110px auto;
 	display: flex;
 	justify-content: space-around;
-	background-color: green;
 	font-family: 'JetBrains Mono', monospace;
+/*	background-color: green;*/
 
 }
 
@@ -64,8 +66,9 @@ width:80vw;
 	display: flex;
 	flex-direction:column;
 	justify-content: center;
-	background-color: grey;
 	margin: 0 20px;
+/*	background-color: grey;*/
+
 }
 .hello{
 	font-size: 60px;
@@ -107,24 +110,30 @@ width:80vw;
 
 /*skills*/
 .myskills{
-	width:100vw;
-	margin: 10px 10px;
+	width:70vw;
+	margin: 110px 20px;
 	font-family: 'JetBrains Mono', monospace;
-    background-color: #000;
+/*	border: 1px solid red;*/
 
+}
+.myskills h2{
+	margin: 30px auto;
 }
 
 .skillContainer{
 	display: flex;
 	flex-direction: row;
 	margin: 10px auto;
-*/
+
 }
+.skills{
+	margin: 20px auto;
+	font-family: 'Fira Sans', sans-serif;
 
+}
 .skills img{
-	height:10px;
-	margin: 0 0px;
-
+	height:120px;
+	margin: 0 10px;
 
 }
 
@@ -197,3 +206,4 @@ width:20px;
 	
 
 
+2, 8, 135
