@@ -45,7 +45,7 @@ body {
 }
 .main{
 	width: 90vw;
-	background-color: brown;
+/*	background-color: brown;*/
 
 }
 
@@ -137,19 +137,32 @@ width:80vw;
 }
 
 /*work*/
-.projectContainer{
-    background-color: red;
-}
-.projectContainer h2{
-	margin: 30px auto;
-}
-
-
-
-}
-
-.projects{
+.projectSpace{
     background-color: green;
+	width:70vw;
+	margin: 110px 20px;
+	font-family: 'JetBrains Mono', monospace;
+}
+.projectSpace h2{
+	margin: 30px auto;	
+}
+.project{
+	width:30vw;
+	height: 30vh;
+	border: 10px solid red;
+	border-radius: 5px;
+
+}
+.project img{
+	width:20vw;
+	height: 20vh
+}
+
+	margin: 30px auto;
+    background-color: red;
+	width:70vw;
+	margin: 110px 20px;
+	font-family: 'Fira Sans', sans-serif;
 
 }
 
