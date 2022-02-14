@@ -43,6 +43,11 @@ body {
 	   text-decoration: none;
 
 }
+.sidebar li a:hover{
+font-weight: bold;
+
+
+}
 .main{
 	width: 90vw;
 /*	background-color: brown;*/
@@ -137,8 +142,11 @@ width:80vw;
 }
 
 /*work*/
+.projectContnainer{
+	display: flex;
+}
 .projectSpace{
-    background-color: green;
+ /*   background-color: green;*/
 	width:70vw;
 	margin: 110px 20px;
 	font-family: 'JetBrains Mono', monospace;
@@ -154,8 +162,12 @@ width:80vw;
 	padding: 10px;
 }
 .project img{
-	width:20vw;
-	height: 30vh
+	width:25vw;
+	height: 30vh;
+	zindex: -1;
+}
+.project h3{
+
 }
 
 	margin: 30px auto;
