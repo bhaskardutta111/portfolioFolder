@@ -85,7 +85,7 @@ width:80vw;
 .ctas{
 	margin: 34px 0;	
 }
-.ctas button{
+.btn{
     padding: 15px 17px;
     border-radius: 18px;
     background-color: cyan;
@@ -96,7 +96,7 @@ width:80vw;
     cursor: pointer;
 
 }
-.ctas button:hover{
+.btn:hover{
     background-color: red;
     color: cyan;
 
@@ -104,7 +104,7 @@ width:80vw;
 
 .infoPic img{
 /*	border: 1px solid red;*/
-	height:60vh; 
+	height:70vh; 
 }
 
 /*skills*/
@@ -149,13 +149,13 @@ width:80vw;
 .project{
 	width:30vw;
 	height: 30vh;
-	border: 10px solid red;
+	border: 1px solid red;
 	border-radius: 5px;
-
+	padding: 10px;
 }
 .project img{
 	width:20vw;
-	height: 20vh
+	height: 30vh
 }
 
 	margin: 30px auto;
