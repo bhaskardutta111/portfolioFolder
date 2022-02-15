@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=JetBrains+Mono:wght@100&family=Source+Code+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=JetBrains+Mono:wght@100&family=Source+Code+Pro:wght@300&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -112,9 +111,9 @@ font-weight: bold;
 /*skills*/
 .myskills{
 	width:70vw;
-	margin: 110px 70px;
+	margin: 70px 20px;
 	font-family: 'JetBrains Mono', monospace;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 
 }
 .myskills h2{
@@ -143,37 +142,33 @@ font-weight: bold;
 /*work*/
 .projectContnainer{
 	display: flex;
-	margin: 0 20px;
 
 }
 .projectSpace{
- 	border: 1px solid red;
+ 	/*border: 1px solid red;*/
 /*   background-color: green;*/
-	width:70vw;
-	margin: 110px 70px;
+	width:80vw;
+	margin: 70px 20px;
 	font-family: 'JetBrains Mono', monospace;
 }
 .projectSpace h2{
 font-size: 50px;
     font-family: 'Source Code Pro', monospace;
-	
+
 	margin: 30px auto;	
 }
 .project{
-	width:30vw;
+	width:25vw;
 	height: 30vh;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	border-radius: 5px;
-	padding: 10px;
+	padding: 20px;
 }
 .project img{
 	width:25vw;
 	height: 30vh;
 	zindex: -1;
 }
-#h2{
-    font-size: 50px;
-
 }
 
 	margin: 30px auto;
