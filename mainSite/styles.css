@@ -88,13 +88,18 @@ font-weight: bold;
 }
 .btn{
     padding: 15px 17px;
+   border: 2px solid black;    
     border-radius: 18px;
-    background-color: cyan;
-    color: red;
+/*    background-color: cyan;
+    color: red;*/
     font-size: 20px;
     font-weight: bold;
     margin: 0px 11px;
     cursor: pointer;
+    position: relative;
+    bottom: 150px;
+    left: 20px;
+    box-shadow: 5px 5px #888888;
 
 }
 .btn:hover{
@@ -145,7 +150,7 @@ font-weight: bold;
 
 }
 .projectSpace{
- 	/*border: 1px solid red;*/
+ 	border: 1px solid red;
 /*   background-color: green;*/
 	width:80vw;
 	margin: 70px 20px;
@@ -160,16 +165,18 @@ font-size: 50px;
 .project{
 	width:25vw;
 	height: 30vh;
-/*	border: 1px solid red;*/
+	border: 1px solid red;
 	border-radius: 5px;
-	padding: 20px;
+	margin: 10px;
 }
 .project img{
 	width:25vw;
 	height: 30vh;
 	zindex: -1;
+	 filter: blur(2px);
+
 }
-}
+
 
 	margin: 30px auto;
     background-color: red;
