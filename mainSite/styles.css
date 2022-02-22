@@ -73,6 +73,7 @@ body {
 	flex-direction:column;
 	justify-content: center;
 	margin: 0 20px;
+
 /*	background-color: grey;*/
 
 }
@@ -82,7 +83,7 @@ body {
 .name{
 	font-size: 50px;
 	font-weight: bold;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Source Code Pro', monospace;
 }
 .desc{
 	font-size: 40px;
@@ -93,20 +94,23 @@ body {
 	margin: 34px 0;	
 }
 .btn{
-    padding: 15px 10px;
+   padding: 15px 12px;
    border: 2px solid black;    
-    border-radius: 18px;
-/*    background-color: cyan;
-    color: red;*/
+   border-radius: 18px;
     font-size: 20px;
     font-weight: bold;
-    margin: 0px 7px;
+    margin: 0px 20px;
     cursor: pointer;
+   box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.9);
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+.project a{
     position: relative;
     bottom: 150px;
     left: 20px;
-   box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.9);
-	font-family: 'Source Code Pro', monospace;
+    margin: 0 5px;
 
 }
 .btn:hover{
@@ -122,9 +126,12 @@ body {
 -o-transition: all 500ms ease;
 transition: all 500ms ease
 }
-.btn{
-	margin: 0px 0px;
-    
+.basic{
+	 position: relative;
+	 bottom: 10px;
+	 left: 1px;   
+	 margin: 0;
+
 }
 
 .infoPic img{
@@ -137,7 +144,6 @@ transition: all 500ms ease
 	width:70vw;
 	margin: 70px 20px;
 	font-family: 'JetBrains Mono', monospace;
-/*	border: 1px solid red;*/
 
 }
 .myskills h2{
@@ -190,9 +196,8 @@ font-size: 50px;
 .project img{
 	width:25vw;
 	height: 30vh;
-	zindex: -1;
 	 filter: blur(2px);
-
+	z-index: -1;
 }
 .projectContnainer h3{
 font-size: 22px;
