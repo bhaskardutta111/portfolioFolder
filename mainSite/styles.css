@@ -20,7 +20,7 @@ body {
 
 .sidebar{
 	background-color: cyan;	
-	width: 234px;
+	width: 150px;
 	height: 100vh;
 	font-family: 'JetBrains Mono', monospace;
 	/*border: 1px solid red;*/
@@ -35,7 +35,7 @@ body {
 .sidebar li{
 	list-style: none;
 	padding: 20px 0;
-	margin: 35px 20px;
+	margin: 35px 10px;
    font-size: 25px;
 /*	border: 1px solid red;*/
 }
