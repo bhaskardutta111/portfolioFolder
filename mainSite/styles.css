@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=JetBrains+Mono:wght@100&family=Source+Code+Pro:wght@300&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -28,19 +29,19 @@ body {
 }
 .sidebar ul{
 	padding: 10px;
-	margin: 25px 0;
+	margin: 5px 0;
 /*	border: 1px solid red;*/
    
 }
 .sidebar li{
 	list-style: none;
-	padding: 20px 0;
+	padding: 10px 0;
 	margin: 35px 10px;
-   font-size: 25px;
+   font-size: 22px;
 /*	border: 1px solid red;*/
 }
 .sidebar li a{
-	   text-decoration: none;
+	text-decoration: none;
 	padding: 20px 10px;
 
 }
